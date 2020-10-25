@@ -1,0 +1,38 @@
+header{
+    text-align: center;
+    border:1px solid #993930;
+    font-size: 20px;
+    margin:0;
+    padding:8px;
+    a{
+        display: inline-block;
+        margin:8px;
+        font-size: 24px;
+        border-bottom: solid 1px black;
+        text-decoration: none;
+        color: #333333;
+    }
+    h1{
+        text-align: center;
+        margin: 0;
+        padding:16px;
+        border: 0px;
+    }
+}
+
+.button_area{
+    text-align: center;
+    .button_1{
+        display: block;
+        margin:0 auto;
+        width: 120px;
+        padding: 16px;
+        background-color: #993930;
+        border-radius: 5px;
+    }
+
+}
+
+.button_1:hover{
+    opacity: 0.7;
+}
