@@ -22,11 +22,19 @@ header{
     }
 }
 
-h2{
+p{
+    letter-spacing: 0.8px;
+}
+
+.content_direction{
+    letter-spacing: 1.6px;
+    font-size: 16px;
+}
+.tytle_two{
     font-size: 28px;
     font-weight: 1000;
 }
-h3{
+.tytle_three{
     font-size: 48px;
     font-weight: 1000;
     color: 	#2b470e;
@@ -63,6 +71,8 @@ h3{
         letter-spacing: 0.06em;
         line-height: 2.09;
         text-align: center;
+        color:  #006600;
+        font-weight: 900;
     }
     p{
         text-align: center;
@@ -213,14 +223,16 @@ h3{
 
 .content_topic{
   padding: 0 2px;
-
 }
 
 .text_content{
-  padding:0 16px;
-  margin: 0 20px;
+  padding:0 32px;
+  margin: 16px 68px 48px;
+  font-stretch: semi-expanded;
+  letter-spacing: 4px;
   line-height: 32px;
   background-color:	#f4ffea;
+
 }
 
 blockquote.quote-orange {
@@ -232,13 +244,16 @@ blockquote.quote-orange {
 blockquote {
   background: #fff;
   border-left: .7rem solid #007bff;
-  margin: 1.5em .7rem;
   padding: .5em .7rem;
   display: block;
   margin-block-start: 1em;
   margin-block-end: 1em;
   margin-inline-start: 40px;
   margin-inline-end: 40px;
+  .tytle_two{
+      text-align: left;
+      padding-left: 8px;
+  }
 }
 
 .news{
@@ -268,7 +283,7 @@ blockquote {
       }
     }
   }
-
+}
 .content.appintro::after{
     content: "";
     clear: both;
@@ -288,7 +303,7 @@ blockquote {
     z-index: 3;
     .image-area{
         img{
-            width: 100%;
+            width: 240px;
         }
     }
 }
@@ -318,13 +333,13 @@ blockquote {
 .card.left {
     width: 90%;
    float: left;
-    
+    padding: 20px 20px 10px;
 }
 
 .card.right {
     width: 90%;
    float: right;
-    
+   padding: 20px 20px 10px;
 }
 
 .card_body {
