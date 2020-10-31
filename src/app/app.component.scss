@@ -36,3 +36,34 @@ header{
 .button_1:hover{
     opacity: 0.7;
 }
+
+.container{
+    max-width: 1200px;
+    padding:0 16px;
+}
+
+.card.right {
+    width: 95%;
+    margin-bottom: 30px;
+    margin-top: 0;
+    visibility: visible;
+    animation-duration: 1.3s;
+    animation-delay: 0.3s;
+    width: 640px;
+    background-color: #fff;
+    box-sizing: border-box;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+    z-index: 3;
+}
+
+
+.tier.story .card_head {
+    margin: 10px 20px 0 20px;
+    padding-bottom: 10px;
+    border-bottom: solid 1px #707070;
+}
+
+.story .card_body {
+    padding: 10px 20px;
+    font-size: 12px;
+}
