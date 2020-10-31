@@ -37,6 +37,7 @@ header{
     opacity: 0.7;
 }
 
+
 .container{
     max-width: 1200px;
     padding:0 16px;
@@ -66,4 +67,12 @@ header{
 .story .card_body {
     padding: 10px 20px;
     font-size: 12px;
+
+footer{
+    padding: 0 0;
+    width: 100%;
+    background-color:#556b2f;
+    text-align: right;
+    color:#ffffff;
+
 }
