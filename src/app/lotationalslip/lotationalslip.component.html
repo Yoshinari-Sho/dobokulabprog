@@ -1,41 +1,144 @@
 <div class="text_face">
-    <h3>lotationalslip</h3>
-</div>
-<div class="content_topic">
-    <blockquote class="quote-orange me-0">
-        <h2>使用方法</h2>
-        <p></p>
-    </blockquote>
+    <h1>斜面の安定計算</h1>
 </div>
 
-<div class="text_content">
-    何度もいうように、約款も契約である点で違いはありませんが、通常の契約は、お互いの合意（意志の合致）を根拠に、当事者双方に拘束力を発生させます。逆にいえば、お互いの意志の合致がなければ拘束力もないのです。契約においてはそもそも、申し込む人がよく知らないことや、理解できていないことについては、原理上成立できないはずです。
+<div class="content">
+    <div class="content-inner">
+        <h2>How to</h2>
+        <p>使用説明</p>
+        <div class="content_topic">
+            <blockquote class="quote-blue me-0">
+                <p class="tytle_two">使ってみよう</p>
+            </blockquote>
+        </div>
+        <div class="text_content">
+            <p class="content_direction">
+                土木の世界で当たり前だと考えられている現象、大学で当たり前のように扱っている計算式、そしてそれを当たり前のものとして理解し運用の練習を行う私たち。
+            </p>
+            <p class="content_direction">
+                身の回りに山のように散らばる「あたりまえ」に焦点を当て、消化することによって土木に対しての理解を深めます。
+            </p>
+        </div>
+        <div class="content_topic">
+            <blockquote class="quote-blue me-0">
+                <p class="tytle_two">演算方法</p>
+                <p></p>
+            </blockquote>
+        </div>
+        <div class="text_content">
+            <div class="image-area">
+                <img src="../../assets/img/slip_article_first.png" class="artical">
+            </div>
+            <div class="artical_text">
+            <p class="content_direction">
+                他所の分野は難しくそれでいて素晴らしく見えるもの。けれど講義を聞くだけだとつまらない。
+            <p class="content_direction">
+                そんな学生たちが、興味の赴くままに新しい分野（プログラミング）に手を出し、定着を目指します。
+            </p>
+        </div>
+        </div>
+        <div class="content_topic">
+            <blockquote class="quote-orange me-0">
+                <p class="tytle_two">inputで終わるなら独学でいい</p>
+                <p></p>
+            </blockquote>
+        </div>
+        <div class="text_content">
+            <p class="content_direction">
+                身に着けた技術を共有し、互いを指導しあうペアプログラミングを採用することで、outputの活発化を図ります。
+            </p>
+            <p class="content_direction">
+                各々が、常に学びのゴールは「伝える」ことであると自覚することで、作業の効率化とチームとしての能力の成熟を狙います。
+            </p>
+        </div>
+        <div class="content_topic">
+            <blockquote class="quote-orange me-0">
+                <p class="tytle_two">土木とプログラミングで社会を豊かに</p>
+                <p></p>
+            </blockquote>
+        </div>
+        <div class="text_content">
+            <p class="content_direction">
+                得られた知識をチーム内で留めるつもりはありません。
+            </p>
+            <p class="content_direction">
+            　　私たちはあくまで「学ばせていただいている」身だということを正しく理解し、土木業界に正しい還元を行うことで、業界間の成長と発展への寄与を願います。
+            </p>
+        </div>
+    </div>
 </div>
-
-<div class="content_topic">
-    <blockquote class="quote-orange me-0">
-        <h2>理論</h2>
-        <p></p>
-    </blockquote>
-</div>
-
-<div class="text_content">
-    <p>　こちらのアプリでは、指定された条件の斜面に対して、最も危険な状態となる円弧滑り面とその安全率を返します。最も危険な状態となる円弧滑り面の調べ方については、以下の手順により計算します。</p>
-    <ol>
-    <li>斜面より上のある座標（x＝L/2、ｙ＝H）を中心とし、ある半径をとる円弧滑り面の安全率を計算します。円弧滑り面の安全率計算では、スライス法に基づき円の面積をx方向に5分割し、それぞれの要素について滑り荷重と滑り抵抗を算出し、それぞれ合算した値の商を求めることで算出します。</li>
-    <li>➀の中心座標の場合における、<strong>安全率が最小値となる円弧滑り面の半径</strong>を求めます。その際、円弧滑り面と斜面が接する時の半径の値を最小値として、半径の値を1mずつ増加させて安全率の繰り返し計算を25回行います。この繰り返し計算の中で最も小さい安全率を算出した時の安全率を、その中心座標における最小安全率とします。</li>
-    <li>円弧滑り面の中心として選ばれているある座標の上下左右それぞれ5m離れた4点についても➁の計算を行います。そして、5つの異なる中心座標における最小安全率を比較して、最も小さい最小安全率を出した中心座標を選びます。</li>
-    <li>上下左右それぞれ離れた4点のいずれかが選ばれた場合は、その点を中央として再び➂の計算・比較を行います。中央とした1点が選ばれた場合、計算を終了して最も危険な状態となる円弧滑り面とその安全率として返します。</li>
-    </ol>
-</div>
-
-<div class="content_topic">
-    <blockquote class="quote-orange me-0">
-        <h2>制作にあたって</h2>
-        <p></p>
-    </blockquote>
-</div>
-
-<div class="text_content">
-    何度もいうように、約款も契約である点で違いはありませんが、通常の契約は、お互いの合意（意志の合致）を根拠に、当事者双方に拘束力を発生させます。逆にいえば、お互いの意志の合致がなければ拘束力もないのです。契約においてはそもそも、申し込む人がよく知らないことや、理解できていないことについては、原理上成立できないはずです。
+<div class="content">
+    <div class="content-inner">
+        <h2>Record</h2>
+        <p>制作記録</p>
+        <div class="content_topic">
+            <blockquote class="quote-blue me-0">
+                <p class="tytle_two">円弧の計算</p>
+            </blockquote>
+        </div>
+        <div class="text_content">
+            <p class="content_direction">
+                今回の円弧滑りのアプリ開発をするにあたって、自分は全くと言っていいほどプログラミングについて知らない状態からはじめました。
+            </p>
+            <p class="content_direction">
+                また、今回のアプリ開発では、「three.js」を使用して円弧すべりを表示する図形などを書いていきました。それを進める過程で、土の仮定した球体や丘を想定した線など、色々図形を作成していきました。
+            </p>
+            <p class="content_direction">
+                初めにも書いたとおり、自分はプログラミングでさえ知らないような人だったので、最初は何をしていいかわからず、どんなふうに書いていくのかもわからなかった状態で、とても苦労しました。
+            </p>
+            <p class="content_direction">
+                しかし、three.jsについていろんなことを調べたり、周りにいるメンバーや笹澤さんに聞いたりしていくうちに、少しずつではあったがわかるようになっていき、図形などの表示できるようになっていきました。
+            </p>
+            <p class="content_direction">
+                今回全体を通して思ったことは、はじめは大変だったけど、だんだんやっていくうちに楽しくなっていき、完成したときの喜びが貴重な体験をすることに繋げられることが出来ました。
+            </p>
+            <p class="content_direction">
+                これからも少しずつプログラミング部の企画を通して、様々なことを経験していきたいと感じました。
+            </p>
+            <p class="content_direction">
+                吉川和宏
+            </p>
+        </div>
+        <div class="content_topic">
+            <blockquote class="quote-orange me-0">
+                <p class="tytle_two">「あたらしい」を「あたりまえ」に</p>
+                <p></p>
+            </blockquote>
+        </div>
+        <div class="text_content">
+            <p class="content_direction">
+                他所の分野は難しくそれでいて素晴らしく見えるもの。けれど講義を聞くだけだとつまらない。
+            <p class="content_direction">
+                そんな学生たちが、興味の赴くままに新しい分野（プログラミング）に手を出し、定着を目指します。
+            </p>
+        </div>
+        <div class="content_topic">
+            <blockquote class="quote-orange me-0">
+                <p class="tytle_two">inputで終わるなら独学でいい</p>
+                <p></p>
+            </blockquote>
+        </div>
+        <div class="text_content">
+            <p class="content_direction">
+                身に着けた技術を共有し、互いを指導しあうペアプログラミングを採用することで、outputの活発化を図ります。
+            </p>
+            <p class="content_direction">
+                各々が、常に学びのゴールは「伝える」ことであると自覚することで、作業の効率化とチームとしての能力の成熟を狙います。
+            </p>
+        </div>
+        <div class="content_topic">
+            <blockquote class="quote-orange me-0">
+                <p class="tytle_two">土木とプログラミングで社会を豊かに</p>
+                <p></p>
+            </blockquote>
+        </div>
+        <div class="text_content">
+            <p class="content_direction">
+                得られた知識をチーム内で留めるつもりはありません。
+            </p>
+            <p class="content_direction">
+            　　私たちはあくまで「学ばせていただいている」身だということを正しく理解し、土木業界に正しい還元を行うことで、業界間の成長と発展への寄与を願います。
+            </p>
+        </div>
+    </div>
 </div>
