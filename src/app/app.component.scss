@@ -28,7 +28,7 @@ p{
 
 .content_direction{
     letter-spacing: 1.6px;
-    font-size: 16px;
+    font-size: 18px;
 }
 .tytle_two{
     font-size: 28px;
@@ -75,7 +75,7 @@ p{
         font-weight: 900;
     }
     p{
-        text-align: center;
+        text-align: left;
     }
 }
 
@@ -150,8 +150,9 @@ p{
   }
 
 .text_face{
-    margin: 20px 0px 10px 0px;
-
+    max-width: 1200px;
+    padding: 16px 0px 0px 8px;
+    margin: 0 auto;
 }
 .second_face{
   position: relative;
@@ -226,13 +227,13 @@ p{
 }
 
 .text_content{
-  padding:0 32px;
+  padding:16px 32px;
   margin: 16px 68px 48px;
   font-stretch: semi-expanded;
   letter-spacing: 4px;
   line-height: 32px;
   background-color:	#f4ffea;
-
+  display: flex;
 }
 
 blockquote.quote-orange {
@@ -241,6 +242,14 @@ blockquote.quote-orange {
     margin-top: 0!important;
 }
 }
+
+blockquote.quote-blue {
+  border-color:	#2bd5d5;
+  .mt-0 {
+    margin-top: 0!important;
+  }
+}
+
 blockquote {
   background: #fff;
   border-left: .7rem solid #007bff;
@@ -327,7 +336,7 @@ blockquote {
     width: 50%;
     padding-right:16px;
     letter-spacing: -8px;
-}
+   }
 }
 }
 
@@ -343,10 +352,16 @@ blockquote {
    padding: 20px 20px 10px;
 }
 
+
 .card_body {
-    padding: 10px 20px;
+ padding: 10px 20px;
     font-size: 16px;
-    letter-spacing: 0.6;
+    letter-spacing: 1.6px;
+
+}
+
+.twitter{
+  color: #0080ff;
 }
 
 footer{
