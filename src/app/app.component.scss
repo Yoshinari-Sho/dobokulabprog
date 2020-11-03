@@ -77,6 +77,11 @@ p{
         text-align: left;
         letter-spacing: 1.6px;
     }
+    ol{
+      padding:0 0 8px 32px;
+      font-size: 16px;
+      font-weight: 900;
+    }
     ul.cp_list {
       padding:0.5em;
       list-style-type:none;
@@ -103,9 +108,22 @@ p{
       height:8px;
       transform:rotate(-45deg);
     }
+    .sub_list {
+      padding: 0;
+      position: relative;
+      
+    }
+    
+    .sub_list li {
+      color: #90bfe7;
+      margin-left: 32px;
+      margin-bottom: 5px;/*下のバーとの余白*/
+      line-height: 1.5;
+      padding: 0.5em;
+      list-style-type: none!important;
+    }
 
 }
-
 
 
 .content.first{
@@ -216,12 +234,13 @@ p{
 }
 .second_face{
   position: relative;
-  padding: 15px 15px;
+  padding: 15px 15px　15px 7px;
   font-size: large;
   font-weight: 700;
   font-family:‘Yu Gothic‘;
   color: #006600;
   padding-left:10px;
+  padding-bottom: -8px;
 }
 
 .second_face:after {
@@ -289,7 +308,7 @@ p{
 
 .text_content{
   padding:16px 32px;
-  margin: 16px 68px 48px;
+  margin: 16px 68px 8px;
   font-stretch: semi-expanded;
   letter-spacing: 4px;
   line-height: 32px;
@@ -303,6 +322,16 @@ p{
     font-size: 24px;
     font-weight: 900;
   }
+  .list{
+    margin: 8px -8px;
+    padding: 0 8px;
+    font-weight: 800;
+    font-size: 20px;
+    background-color: #ffffff;
+  }
+  p{
+    padding-bottom: 14px;
+  }
 }
 
 blockquote.quote-orange {
@@ -313,7 +342,13 @@ blockquote.quote-orange {
 }
 
 blockquote.quote-blue {
-  border-color:	#2bd5d5;
+  border-color:	#FFC107;
+  .mt-0 {
+    margin-top: 0!important;
+  }
+}
+blockquote.quote-topic {
+  border-color:	#FFC107;
   .mt-0 {
     margin-top: 0!important;
   }
@@ -332,6 +367,13 @@ blockquote {
       text-align: left;
       padding-left: 8px;
   }
+}
+.tytle_four{
+    background: linear-gradient(transparent 70%, #a7d6ff 70%);
+    padding-left: 8px;
+    margin:24px 56px 12px;
+    font-size: 28px;
+    font-weight:500;
 }
 
 .news{
@@ -485,4 +527,6 @@ footer{
     font-size: 0;
     animation: 5s slidy infinite; 
   }
+  
+
   
