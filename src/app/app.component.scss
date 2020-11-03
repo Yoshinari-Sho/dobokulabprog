@@ -28,10 +28,7 @@ p{
 }
 
 
-.content_direction{
-    letter-spacing: 1.6px;
-    font-size: 18px;
-}
+
 .tytle_two{
     font-size: 28px;
     font-weight: 1000;
@@ -77,8 +74,10 @@ p{
         font-weight: 900;
     }
     p{
-        text-align: center;
+        text-align: left;
+        letter-spacing: 1.6px;
     }
+
 }
 
 .content.first{
@@ -250,6 +249,7 @@ p{
   }
 } 
 
+
 .working__img{
   max-width: 100%;
   min-width: 100%;
@@ -266,6 +266,15 @@ p{
   letter-spacing: 4px;
   line-height: 32px;
   background-color:	#f4ffea;
+  .content_direction{
+    letter-spacing: 1.6px;
+    font-size: 18px;
+  }
+  .emphasis{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 900;
+  }
 }
 
 blockquote.quote-orange {
@@ -336,11 +345,14 @@ blockquote {
   display: block;
   padding-right: 8px;
 }
-.slip_artical_text{
+.slip_article_text{
   display: block;
 }
-.artical_slip{
+.article_slip{
   padding:0;
+  .slip_article_text{
+    font-size: 18px;
+  }
 }
 
 
