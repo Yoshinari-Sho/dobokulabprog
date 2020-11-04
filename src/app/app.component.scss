@@ -63,10 +63,10 @@ p{
 
 .content-inner{
     max-width: 1200px;
-    padding:0 16px;
+    padding:16px;
     margin:0 auto;
     h2{
-        font: calc(2.071em + 26 * (100vw - 375px) / 1305) Verdana, Helvetica, Arial, sans-serif;
+        font: calc(2.071em + 26 * (100vw - 375px) / 1305)  Roboto, "Helvetica Neue", sans-serif;;
         letter-spacing: 0.06em;
         line-height: 2.09;
         text-align: center;
@@ -127,27 +127,20 @@ p{
 
 
 .content.first{
-  position: relative;
-  img{
-    width: 100%;
-  }
+  color: #fff;
+  margin: 0 0 40px;
+  width: 100%;
+  background: #ddd url(../assets/img/kkk.jpg) no-repeat center center;
+  background-size: cover;
   .content-inner{
     max-width: 1200px;
-   
     p{
-      position: absolute;
-      top: 50%;
-  left: 50%;
-  -ms-transform: translate(-50%,-50%);
-  -webkit-transform: translate(-50%,-50%);
-  transform: translate(-50%,-50%);
   margin:0;
-  padding:0;
+  padding:100px 16px;
   font-size: 5vmin;
   font-weight: bold;
   color: #fff;
   line-height: 8vmin;
-  width: 100%;
     }
   }
 }
@@ -308,7 +301,7 @@ p{
 
 .text_content{
   padding:16px 32px;
-  margin: 16px 68px 8px;
+  margin-bottom:16px;
   font-stretch: semi-expanded;
   letter-spacing: 4px;
   line-height: 32px;
@@ -330,7 +323,7 @@ p{
     background-color: #ffffff;
   }
   p{
-    padding-bottom: 14px;
+   line-height: 32px;
   }
 }
 
@@ -359,10 +352,6 @@ blockquote {
   border-left: .7rem solid #007bff;
   padding: .5em .7rem;
   display: block;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 40px;
-  margin-inline-end: 40px;
   .tytle_two{
       text-align: left;
       padding-left: 8px;
@@ -372,7 +361,7 @@ blockquote {
     background: linear-gradient(transparent 70%, #a7d6ff 70%);
     padding-left: 8px;
     margin:24px 56px 12px;
-    font-size: 28px;
+    font-size: 20px;
     font-weight:500;
 }
 
@@ -462,7 +451,7 @@ blockquote {
     font-weight: bolder;
     width: 50%;
     padding-right:16px;
-    letter-spacing: -8px;
+    letter-spacing: -4px;
    }
 }
 }
@@ -484,6 +473,7 @@ blockquote {
  padding: 10px 20px;
     font-size: 16px;
     letter-spacing: 1.6px;
+    line-height: 24px;
 
 }
 
@@ -529,4 +519,74 @@ footer{
   }
   
 
+  @media screen and (max-width:768px){
+    .card{
+      display: block;
+      width: 100%;
+      padding: 10px 20px;
+      margin:32px 0;
+      background-color: #fff;
+      box-sizing: border-box;
+      box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+      z-index: 3;
+      .image-area{
+        margin-bottom: 30px;
+        text-align: center;
+          img{
+              border-radius: 50%;
+          }
+      }
+    &.pj{
+      .image-area{
+        text-align: center;
+          img{
+              border-radius: 0;
+          }
+      }
+    }
+  }
+  
+  .card_head {
+      margin: 10px 20px 0 20px;
+      padding-bottom: 10px;
+      border-bottom: solid 1px #707070;
+      line-height: 180%;
+  
+  .card_head_title{
+      font-size: 21px;
+      font-weight: bold;
+      display: block;
+      margin-top: 6px;
+      
+  .titleNumber{
+      font-size: 60px;
+      font-weight: bolder;
+      width: 50%;
+      padding-right:16px;
+      letter-spacing: -8px;
+     }
+  }
+  }
+  
+  .card.left {
+      width: 100%;
+     float: none;
+      padding: 20px 20px;
+  }
+  
+  .card.right {
+      width: 100%;
+     float: none;
+     padding: 20px 20px;
+  }
+  
+  
+  .card_body {
+   padding: 10px 20px;
+      font-size: 16px;
+      letter-spacing: 1.6px;
+  
+  }
+  
+  }
   
