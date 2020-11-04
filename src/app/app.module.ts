@@ -8,6 +8,7 @@ import { LotationalslipComponent } from './lotationalslip/lotationalslip.compone
 import { LandingpageComponent } from './landingpage/landingpage.component';
 import { LiquefactionComponent } from './liquefaction/liquefaction.component';
 import { RouterModule } from '@angular/router';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 
 @NgModule({
@@ -21,7 +22,8 @@ import { RouterModule } from '@angular/router';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    RouterModule
+    RouterModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
