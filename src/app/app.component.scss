@@ -23,8 +23,9 @@ header {
 }
 
 p {
-  font-size: 16px;
+  font-size: 18px;
   letter-spacing: 0.8px;
+  padding-bottom: 16px;
 }
 
 .tytle_two {
@@ -43,12 +44,33 @@ p {
 .tytle_four {
   background: linear-gradient(transparent 70%, #a7d6ff 70%);
   padding-left: 8px;
-  margin: 10px auto;
+  margin: 24px auto 10px auto;
   font-size: 24px;
   font-weight: 500;
   display: block;
   width: 100%;
 
+}
+
+.jump_frame{
+  max-width: 1200px;
+  margin: 18px auto;
+  height: 80px;
+  .jump_size{
+    display: flex;
+    height: 80px;
+    .jump_box{
+      background-color: transparent;
+      width: 25%;
+      border-top: 4px solid #0080ff;
+      border-bottom: 4px solid #0080ff;
+      margin: 0px 4px;
+
+      font-size: 48px;
+      font-weight: 600;
+      text-align: center;
+    }
+  }
 }
 
 
@@ -92,7 +114,7 @@ p {
   }
   ol {
     padding: 0 0 8px 32px;
-    font-size: 16px;
+    font-size: 18px;
   }
   ul.cp_list {
     padding: 0.5em;
@@ -336,14 +358,14 @@ p {
 .text_content {
   padding: 16px 32px;
   margin:0px 8px 16px;
-  font-size: 16px;
+  font-size: 18px;
   font-stretch: semi-expanded;
   letter-spacing: 4px;
   line-height: 32px;
   background-color: #f0ffff;
   .content_direction {
     letter-spacing: 1.6px;
-    font-size: 16px;
+    font-size: 18px;
   }
   .emphasis {
     text-align: center;
@@ -359,7 +381,7 @@ p {
   }
   p {
     line-height: 32px;
-    font-size: 16px;
+    font-size: 18px;
   }
   .image-area{
     text-align: center;
@@ -435,8 +457,9 @@ blockquote {
 
 .slip_img {
   display: block;
+  max-width: 800px;
   width: 100%;
-  padding-right: 8px;
+  margin:4px auto;
 }
 .slip_article_text {
   display: block;
@@ -646,8 +669,7 @@ div#slider figure {
 
   .card_body {
     padding: 10px 20px;
-    font-size: 16px;
+    font-size: 18px;
     letter-spacing: 1.6px;
   }
 }
-
