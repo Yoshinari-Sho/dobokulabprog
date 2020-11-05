@@ -31,6 +31,8 @@ p {
   font-size: 24px;
   font-weight: 1000;
   line-height: 25px;
+  display: block;
+  width: 80%;
 }
 .tytle_three {
   font-size: 48px;
@@ -41,9 +43,12 @@ p {
 .tytle_four {
   background: linear-gradient(transparent 70%, #a7d6ff 70%);
   padding-left: 8px;
-  margin: 24px 56px 12px;
+  margin: 10px auto;
   font-size: 24px;
   font-weight: 500;
+  display: block;
+  width: 100%;
+
 }
 
 
@@ -134,6 +139,9 @@ p {
     color: #0080ff;
     margin-top: -18px;
     margin-bottom: 16px;
+  }
+  img.slice_jpg{
+    width: auto;
   }
 }
 
