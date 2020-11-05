@@ -153,7 +153,10 @@ p {
       line-height: 8vmin;
     }
   }
+
+  
 }
+
 
 @media screen and (max-width: 768px) {
   .headerImg {
@@ -350,6 +353,9 @@ p {
     line-height: 32px;
     font-size: 16px;
   }
+  .image-area{
+    text-align: center;
+  }
 }
 
 blockquote.quote-orange {
@@ -447,6 +453,7 @@ blockquote {
   z-index: 3;
   .image-area {
     img {
+      text-align: center;
       width: 240px;
     }
   }
@@ -635,3 +642,4 @@ div#slider figure {
     letter-spacing: 1.6px;
   }
 }
+
