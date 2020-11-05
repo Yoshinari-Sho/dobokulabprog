@@ -23,18 +23,35 @@ header {
 }
 
 p {
+  font-size: 16px;
   letter-spacing: 0.8px;
 }
 
 .tytle_two {
-  font-size: 20px;
+  font-size: 24px;
   font-weight: 1000;
+  line-height: 25px;
+  display: block;
+  width: 80%;
 }
 .tytle_three {
   font-size: 48px;
   font-weight: 1000;
   color: #2b470e;
 }
+
+.tytle_four {
+  background: linear-gradient(transparent 70%, #a7d6ff 70%);
+  padding-left: 8px;
+  margin: 10px auto;
+  font-size: 24px;
+  font-weight: 500;
+  display: block;
+  width: 100%;
+
+}
+
+
 .button_area {
   text-align: center;
   .button_1 {
@@ -76,7 +93,6 @@ p {
   ol {
     padding: 0 0 8px 32px;
     font-size: 16px;
-    font-weight: 900;
   }
   ul.cp_list {
     padding: 0.5em;
@@ -91,7 +107,7 @@ p {
     position: absolute;
     content: "";
     display: block;
-    background: #ffc107;
+    background: #ffb6c1;
     top: 0.43em;
     left: 0.5em;
     height: 11px;
@@ -118,6 +134,15 @@ p {
     padding: 0.5em;
     list-style-type: none !important;
   }
+  .sub_tytle{
+    text-align: center;
+    color: #0080ff;
+    margin-top: -18px;
+    margin-bottom: 16px;
+  }
+  img.slice_jpg{
+    width: auto;
+  }
 }
 
 .content.first {
@@ -136,7 +161,10 @@ p {
       line-height: 8vmin;
     }
   }
+
+  
 }
+
 
 @media screen and (max-width: 768px) {
   .headerImg {
@@ -307,14 +335,15 @@ p {
 
 .text_content {
   padding: 16px 32px;
-  margin-bottom: 16px;
+  margin:0px 8px 16px;
+  font-size: 16px;
   font-stretch: semi-expanded;
   letter-spacing: 4px;
   line-height: 32px;
   background-color: #f0ffff;
   .content_direction {
     letter-spacing: 1.6px;
-    font-size: 18px;
+    font-size: 16px;
   }
   .emphasis {
     text-align: center;
@@ -330,6 +359,10 @@ p {
   }
   p {
     line-height: 32px;
+    font-size: 16px;
+  }
+  .image-area{
+    text-align: center;
   }
 }
 
@@ -363,13 +396,7 @@ blockquote {
     padding-left: 8px;
   }
 }
-.tytle_four {
-  background: linear-gradient(transparent 70%, #a7d6ff 70%);
-  padding-left: 8px;
-  margin: 24px 56px 12px;
-  font-size: 20px;
-  font-weight: 500;
-}
+
 
 .news {
   background-color: azure;
@@ -434,6 +461,7 @@ blockquote {
   z-index: 3;
   .image-area {
     img {
+      text-align: center;
       width: 240px;
     }
   }
@@ -622,3 +650,4 @@ div#slider figure {
     letter-spacing: 1.6px;
   }
 }
+
