@@ -51,6 +51,25 @@ p {
 
 }
 
+.jump_frame{
+  max-width: 1200px;
+  margin: 18px auto;
+  height: 80px;
+  .jump_size{
+    display: flex;
+    height: 80px;
+    .jump_box{
+      background-color: #d35400;
+      width: 25%;
+      margin:4px;
+      .jump_point{
+        top: 30px;
+        background-color: #ffb6c1;
+      }
+    }
+  }
+}
+
 
 .button_area {
   text-align: center;
